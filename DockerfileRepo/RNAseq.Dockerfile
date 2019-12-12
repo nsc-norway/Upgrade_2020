@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER "Arvind Sundaram" <arvind dot sundaram at medisin dot no>
 RUN apt-get update && \
     apt-get install -y apt-utils && \
