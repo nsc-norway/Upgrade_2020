@@ -1,0 +1,9 @@
+docker create --name AltHapAlignR ubuntu_18.04_nsc:0.1
+docker ps -a #Check if the image has been created
+docker commit AltHapAlignR
+docker images #To get IMAGE ID
+docker tag 215cdb9f4fa9 althapalignr
+
+
+
+conda install intervaltree
