@@ -1,3 +1,10 @@
+Create docker images
+
+```bash
+$ docker build -t <image:version> - < <dockerFile>
+```
+
+
 Use docker save and load OR export and import as a pair when creating a tar file and moving them to the server.
 Do not mix match save, load, export and import. This will cause some problems.
 
