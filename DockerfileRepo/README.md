@@ -8,4 +8,4 @@ $ ssh <server>
 $ docker load -i <name.tar>
 ```
 
-Now `<image:version> is available in the server
+Now `<image:version>` is available in the server
